@@ -1,0 +1,35 @@
+---
+title: "fars functions details"
+author: "Vignette Author"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{fars functions details}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+## Vignette Info
+
+A package that was build in order to satisfy an assignment in module Building R Packages.  
+
+It contains functions to analyze data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System, which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.
+
+Two user functions:  
+
+* **fars_map_state**:  
+From given statenumber and year, a map is plotted with the number of fatalities.
+Longitude must be more than 900 and latitude more than 90.
+When there are no fatalities, nothing is returned.  
+* **fars_summarize_years**:
+From given years in numbers, this function makes one dataframe containing data from all years.
+From this data frame a table is made from the number of casualties with months as rows and years as columns 
+
