@@ -123,11 +123,7 @@ fars_summarize_years <- function(years) {
 #' @importFrom maps map
 #' @importFrom graphics points
 #'
-#' @examples
-#' \dontrun{
-#' fars_map_state(1,2013)
-#' }
-#'
+
 #' @export
 fars_map_state <- function(state.num, year) {
         filename <- make_filename(year)
