@@ -1,4 +1,5 @@
 library(testthat)
+library(MyFarsPackage3)
 
 expect_that(fars_summarize_years, is_a("function"))
 

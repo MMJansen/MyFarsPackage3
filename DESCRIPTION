@@ -4,8 +4,8 @@ Title: Fatalities analysis
 Version: 0.1.0
 Author: Who wrote it
 Maintainer: MJansen <mm.jansen@fontys.nl>
-Description: Assignment for JohnsHopkins MOOC    
-    collection of functions to analyze the data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System
+Description: Assignment for JohnsHopkins MOOC Builing R Packages.
+    It is a collection of functions to analyze the data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System
 License: CCO
 Encoding: UTF-8
 LazyData: true
