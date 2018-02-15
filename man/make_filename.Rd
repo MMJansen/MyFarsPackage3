@@ -16,6 +16,8 @@ This function returns a file name consisting of accident_number.csv.bz2
 Given a year number or string, this function will make a file name consisting of accident_number.csv.bz2
 }
 \examples{
+\dontrun{
 make_filename("2015")
 make_filename(2015)
+}
 }

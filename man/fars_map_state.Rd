@@ -19,7 +19,3 @@ From given statenumber and year, a map is plotted with the number of fatalities.
 Longitude must be more than 900 and latitude more than 90.
 When there are no fatalities, nothing is returned.
 }
-\examples{
-fars_map_state(1,2013)
-
-}

@@ -19,5 +19,7 @@ From given years in numbers, this function tries to read in the corresponding da
 and selects months and year
 }
 \examples{
+\dontrun{
 fars_read_years(c(2013,2014))
+}
 }

@@ -17,6 +17,8 @@ From given years in numbers, this function makes one dataframe containing data f
 From this data frame a table is made from the number of casualties with months as rows and years as columns
 }
 \examples{
+\dontrun{
 fars_summarize_years(c(2013,2014))
+}
 
 }

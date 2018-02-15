@@ -18,5 +18,7 @@ Reads in the specified filename in df using readr. Messages are suppressed.
 If the filame doesn not exist, a message is displayed.
 }
 \examples{
+\dontrun{
 fars_read(accident_2013.csv.bz2)
+}
 }
